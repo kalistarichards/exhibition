@@ -1,0 +1,64 @@
+body{
+	background-color: rgb(255, 199, 206);
+	font-family: Alegraya;
+	font-size: 20px;
+}	
+
+h1{
+	animation: move 3s;
+	-webkit-animation: move 3s;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+	background-color: rgb(237, 185, 191);
+}
+
+@keyframes move{
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+            
+@-webkit-keyframes move{
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+ body, a:hover {
+	 cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat943.cur), progress !important;
+}
+
+
